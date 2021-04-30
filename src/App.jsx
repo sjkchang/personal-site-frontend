@@ -1,8 +1,8 @@
 import React from 'react';
-import '../styles/App.css';
-import Nav from './Nav';
-import About from './About';
-import Home from './Home';
+import './styles/App.css';
+import Nav from './components/Nav';
+import About from './pages/About';
+import Home from './pages/Home';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {

@@ -1,0 +1,33 @@
+nav {
+  background-color: rgb(174, 211, 174);
+}
+
+ul {
+  background-color: rgb(226, 224, 103);
+  list-style-type: none;
+  display: flex;
+  min-height: 6vh;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0vw 5vw;
+  display: inline;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  background-color: black;
+}
+
+.nav-item {
+  float: right;
+}
+
+.nav-logo {
+  float: left;
+}
