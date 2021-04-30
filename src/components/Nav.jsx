@@ -5,18 +5,20 @@ import 'react-bootstrap';
 
 function Nav() {
   return (
-    <nav className="navbar"> 
-      <div className="navbar-container">
-        <ul>
-          <li><Link to='/' className='nav-logo'>Logo</Link></li>
+    <nav id="navbar" class=""> 
+      <div className="navbar-wrapper">
+        <div className='logo'>
+          <li><Link to='/'><i className='fa fa-atom'></i>Logo</Link></li>
+        </div>
+        <ul id="nav-list">
           <li className='nav-item'>
-            <Link to='/' className='nav-links'>Home</Link>
+            <Link to='/' className='nav-link'>Home</Link>
           </li>
           <li className='nav-item'>
-            <Link to='/portfolio' className='nav-links'>Portfolio</Link>
+            <Link to='/portfolio' className='nav-link'>Portfolio</Link>
           </li>
           <li className='nav-item'>
-            <Link to='/about' className='nav-links'>About</Link>
+            <Link to='/about' className='nav-link'>About</Link>
           </li>
         </ul>
       </div>
