@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/App.css';
+import image from './image.png';
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <p>I like to make stuff</p>
       <span><a href="https://github.com/sjkchang" target="_blank" rel="noreferrer"><i className='fa fa-2x fa-github-square'></i></a></span>
       <span><a href="https://www.linkedin.com/in/steven-chang-7723b518b/" target="_blank" rel="noreferrer"><i className='fab fa-2x fa-linkedin'></i></a></span>
+      <img src={image}/>
     </div>
   );
 }
