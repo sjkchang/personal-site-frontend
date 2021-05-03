@@ -6,7 +6,7 @@ import 'react-bootstrap';
 function Nav() {
   
   return (
-    <nav id="navbar" class=""> 
+    <nav id="navbar" class="floating-nav"> 
       <div className="navbar-wrapper">
         <div className='logo'>
           <li><Link to='/'><i className='fas fa-lg fa-strikethrough'></i></Link></li>
