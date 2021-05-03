@@ -1,0 +1,17 @@
+:root {
+  --primary-text: #05386b;
+  --secondary-text: #379683;
+  --background: #5cdb95;
+  --light-green: #8ee4af;
+  --light: #edf5e1;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--secondary-text);
+  color: var(--light-green);
+  text-align: center;
+}

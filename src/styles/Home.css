@@ -6,6 +6,10 @@
   --light: #edf5e1;
 }
 
+.home-container {
+  height: 100vh;
+}
+
 .title-container {
   z-index: 5;
   width: 30vw;

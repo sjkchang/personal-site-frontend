@@ -5,7 +5,7 @@ import image from './image.png';
 
 function Home() {
   return (
-    <div>
+    <div className="home-container">
       <div className="title-container">
         <h1 className="title">Steven Chang</h1>
         <h4 className="sub-title">I like to make stuff</h4>
