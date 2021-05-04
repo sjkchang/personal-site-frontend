@@ -33,18 +33,15 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 #navbar ul {
   margin-right: 10vw;
   float: right;
   list-style: none;
-  /* margin-right: 14px; */
-  text-align: right;
-  transition: transform 0.5s ease-out;
-  -webkit-transition: transform 0.5s ease-out;
   font-size: 1.1em;
+  display: inline-flex;
 }
 
 #navbar li {
@@ -57,19 +54,16 @@
   font-size: 0.7em;
   height: 50px;
   letter-spacing: 1px;
-  margin: 0 20px;
+  margin: 0 1vw;
   padding: 0 4px;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
 }
+
 #navbar li a:hover {
-  /* border-bottom: 1px solid rgb(28, 121, 184); */
   color: var(--secondary-text);
-  transition: all 1s ease;
-  -webkit-transition: all 1 ease;
+  transition: all 0.5s ease;
 }
 
 /* Animated Bottom Line */
@@ -88,14 +82,8 @@
   transition: 0.5s;
 }
 
-#navbar li a:after {
-  background: var(--primary-text);
-  right: 0;
-  /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
-}
-
 #navbar li a:hover:before {
   background: var(--primary-text);
   width: 100%;
-  transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
+  transition: width 0.5s;
 }
