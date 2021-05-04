@@ -8,6 +8,7 @@
 
 .home-container {
   height: 100vh;
+  position: relative;
 }
 
 .title-container {
@@ -20,12 +21,12 @@
 
 .title {
   color: var(--light);
-  font-size: 9em;
+  font-size: 9vw;
 }
 
 .sub-title {
   color: var(--light);
-  font-size: 1.5em;
+  font-size: 1.5vw;
 }
 
 .center {

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import '../styles/Nav.css';
+import './styles/Nav.css';
 import {Link} from 'react-router-dom';
 import 'react-bootstrap';
 
