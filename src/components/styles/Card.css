@@ -7,6 +7,22 @@
 }
 
 .card-container {
-  background-color: white;
-  color: black;
+  background-color: blueviolet;
+  width: 70vw;
+  height: 25vh;
+  margin-bottom: 10vh;
+}
+
+.card {
+  background: var(--light);
+  position: absolute;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.image {
+  background: var(--secondary-text);
+  float: right;
+  width: 70%;
+  height: 100%;
 }

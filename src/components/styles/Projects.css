@@ -1,0 +1,18 @@
+:root {
+  --primary-text: #05386b;
+  --secondary-text: #379683;
+  --background: #5cdb95;
+  --light-green: #8ee4af;
+  --light: #edf5e1;
+}
+
+.projects-container {
+  background-color: var(--background);
+  margin-bottom: 10vh;
+}
+
+.cards-wrapper {
+  width: 75%;
+  margin: auto;
+  list-style-type: none;
+}

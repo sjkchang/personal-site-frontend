@@ -1,6 +1,10 @@
 import React from 'react';
+import Projects from '../Projects';
+
+
 import '../styles/App.css';
 import '../styles/Home.css'
+
 import image from './image.png';
 
 function Home() {
@@ -15,7 +19,9 @@ function Home() {
       <div className="image-container center">
         <img src={image}/>
       </div>
+      <Projects />
     </div>
+    
   );
 }
 
