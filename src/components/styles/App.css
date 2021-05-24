@@ -19,6 +19,8 @@
 body {
   background: var(--background);
   font-family: Lato, Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
 }
 
 a {

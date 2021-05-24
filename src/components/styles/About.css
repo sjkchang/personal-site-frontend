@@ -1,0 +1,44 @@
+:root {
+  --primary-text: #05386b;
+  --secondary-text: #379683;
+  --background: #5cdb95;
+  --light-green: #8ee4af;
+  --light: #edf5e1;
+}
+
+.about-container {
+  margin-bottom: 10vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+}
+
+.numbered-heading {
+  padding-top: 100px;
+  background: transparent;
+  font-size: 1.25rem;
+  color: var(--primary-text);
+}
+
+.about-title {
+  background: transparent;
+}
+
+.inner {
+  margin-top: 50px;
+  display: flex;
+  font-weight: bold;
+  color: var(--light);
+}
+
+.about-text {
+  width: 50vw;
+}
+
+.skill-list {
+  padding-top: 5vh;
+}
+
+.about-image {
+  background: grey;
+}
